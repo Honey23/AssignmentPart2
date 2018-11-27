@@ -14,5 +14,5 @@ I have updated the PART 1 with unit tests.
 i have used my items controller to perform unit test.
 i have performed 23 unit tests. the overall comes around 96% code coverage.
 the links of azure and github are below: 
-github link : https://github.com/Honey23/AssignmentPart2/tree/master
+github link : https://github.com/Honey23/AssignmentPart2
 azure link :
