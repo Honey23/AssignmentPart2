@@ -15,4 +15,8 @@ i have used my items controller to perform unit test.
 i have performed 23 unit tests. the overall comes around 96% code coverage.
 the links of azure and github are below: 
 github link : https://github.com/Honey23/AssignmentPart2
-azure link :
+
+
+azure link :https://part1assignment.azurewebsites.net
+
+
