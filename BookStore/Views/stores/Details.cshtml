@@ -1,0 +1,51 @@
+﻿@model BookStore.Models.store
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>store</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.book_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.book_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.book_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.book_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.author_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.author_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.year_published)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.year_published)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.book_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
